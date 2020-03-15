@@ -1,0 +1,26 @@
+{
+    "name": "dashclick-challallenge-express-backend",
+    "version": "1.0.0",
+    "description": " Coding challange project for dashclick.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [
+        "dashclick",
+        "expressjs",
+        "facebook-business-sdk"
+    ],
+    "author": "Jai Sharma <jaiprakash.sharma44@gmail.com",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "facebook-nodejs-business-sdk": "^6.0.1"
+    },
+    "devDependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^3.1.0"
+    }
+}
